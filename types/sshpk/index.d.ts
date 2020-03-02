@@ -183,7 +183,7 @@ declare namespace SshPK {
 
   class Fingerprint {
     algorithm: string;
-    hash: string;
+    hash: Buffer;
     type: string;
     constructor(opts: any);
 
